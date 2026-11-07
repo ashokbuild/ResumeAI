@@ -39,3 +39,4 @@ async def test_api_report_endpoint(client: TestClient, sample_resume_data: Extra
     assert response.status_code == 200
     assert response.headers["content-type"] == "application/pdf"
     assert response.content.startswith(b"%PDF-")
+

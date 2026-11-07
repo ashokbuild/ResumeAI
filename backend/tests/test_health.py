@@ -17,3 +17,4 @@ def test_root_endpoint(client: TestClient):
     data = response.json()
     assert data["product"] == "ResumeAI"
     assert data["status"] == "online"
+

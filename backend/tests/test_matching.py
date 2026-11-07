@@ -46,3 +46,4 @@ def test_synonym_detection():
     assert "Kubernetes" in matched
     assert "Python" in matched
     assert "Rust" in missing
+

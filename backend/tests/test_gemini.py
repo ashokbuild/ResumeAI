@@ -15,3 +15,4 @@ async def test_gemini_service_fallback_analysis(sample_resume_data: ExtractedRes
     assert analysis.bullet_rewrites[0].needs_user_verification is True
     assert len(analysis.recommendations) > 0
     assert analysis.suggested_summary_rewrite is not None
+

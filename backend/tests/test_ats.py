@@ -26,3 +26,4 @@ def test_ats_readiness_missing_contact():
     result = ats_service.evaluate_ats_readiness(resume)
     assert any("Contact" in s.section_name and s.status == "missing" for s in result.sections_checked)
     assert any("Contact" in m for m in result.missing_sections)
+

@@ -48,3 +48,4 @@ def test_sparse_resume_scoring():
     assert result.rating_label == "Needs Significant Work"
     assert len(result.breakdown.skills_relevance.missing_elements) > 0
     assert len(result.breakdown.experience_quality.missing_elements) > 0
+

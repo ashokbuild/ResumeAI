@@ -50,3 +50,4 @@ def test_structured_extraction(sample_pdf_bytes: bytes):
     )
     assert len(structured.work_experience) >= 1
     assert len(structured.education) >= 1
+

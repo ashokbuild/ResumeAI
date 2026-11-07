@@ -162,3 +162,4 @@ def sample_resume_data():
         achievements=["Dean's Honor List"],
         raw_text="Jane Doe\njane.doe@example.com\nPython, React, FastAPI, AWS...",
     )
+
